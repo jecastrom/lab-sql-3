@@ -28,7 +28,7 @@ toc::[]
 In this lab, you will be using the Sakila database of movie rentals. You have been using this database for a couple labs already, but if you need to get the data again, refer to the official installation link.
 
 The database is structured as follows:
-PICTURE
+image::https://user-images.githubusercontent.com/63274055/147612762-87dadb8f-73e4-494a-8766-3a377898ee2d.png[width=400]
 
 
 
@@ -50,6 +50,7 @@ PICTURE
 
 
 How many distinct (different) actors' last names are there?
+
 
 
 In how many different languages where the films originally produced? (Use the column language_id from the film table)
