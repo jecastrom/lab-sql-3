@@ -1,0 +1,30 @@
+= Lab | SQL Queries 3
+:toc:
+:toc-title: Lab Content
+:toc-placement!:
+ifdef::env-github[]
+:imagesdir:
+ https://gist.githubusercontent.com/path/to/gist/revision/dir/with/all/images
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+ifndef::env-github[]
+:imagesdir: ./
+endif::[]
+
+
+image::https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png[width=70]
+                                                                         
+                                                                         
+```
+```
+
+toc::[]
+
+== Lab | Description:
+
+== Instructions
+https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab 3 script only]
