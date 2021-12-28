@@ -138,10 +138,10 @@ FROM
 
 === Show rental info with additional columns month and weekday. Get 20.
 
- I have chosen date_format() function as it gives me more fredom on the date format I want.
- The extract() function only extracts the numerical values of the date.
+I have chosen date_format() function as it gives me more fredom on the date format I want.
+The extract() function only extracts the numerical values of the date.
 
- ```sql
+```sql
  SELECT
     *,
     date_format(rental_date, '%M') AS month_,
