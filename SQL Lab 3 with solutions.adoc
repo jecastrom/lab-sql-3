@@ -25,6 +25,68 @@ image::https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a
 toc::[]
 
 == Lab | Description:
+In this lab, you will be using the Sakila database of movie rentals. You have been using this database for a couple labs already, but if you need to get the data again, refer to the official installation link.
 
-== Instructions
+The database is structured as follows:
+PICTURE
+
+
+
+=== How many distinct (different) actors' last names are there?
+=== In how many different languages where the films originally produced? (Use the column language_id from the film table)
+=== How many movies were released with "PG-13" rating?
+=== Get 10 the longest movies from 2006.
+=== How many days has been the company operating (check DATEDIFF() function)?
+=== Show rental info with additional columns month and weekday. Get 20.
+=== Add an additional column day_type with values 'weekend' and 'workday' depending on the rental day of the week.
+=== How many rentals were in the last month of activity?
+
+
+
+
+
+
+
+
+
+How many distinct (different) actors' last names are there?
+
+
+In how many different languages where the films originally produced? (Use the column language_id from the film table)
+
+
+How many movies were released with "PG-13" rating?
+
+
+Get 10 the longest movies from 2006.
+
+
+How many days has been the company operating (check DATEDIFF() function)?
+
+
+Show rental info with additional columns month and weekday. Get 20.
+
+
+Add an additional column day_type with values 'weekend' and 'workday' depending on the rental day of the week.
+
+
+How many rentals were in the last month of activity?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab 3 script only]
