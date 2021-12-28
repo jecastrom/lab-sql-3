@@ -58,4 +58,4 @@ image::https://user-images.githubusercontent.com/63274055/147613177-ea085b64-ec4
 
 
 
-https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab 3 script only]
+https://github.com/jecastrom/lab-sql-3/blob/eeb32742f0de207ac5b3b620bf31bb723456ca8a/Lab%20SQL%20Queries%203%20Solutions.sql[SQL Lab 3 script only]
