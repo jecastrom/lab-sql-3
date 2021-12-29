@@ -94,7 +94,7 @@ FROM
 ====
 To express the same result in years:
  
-Using the `timestamdiff()` function which give us an extra argument to format
+Using the `timestampdiff()` function which give us an extra argument to format
 the result either in `month`, `years`, `days`.
 
 ====
