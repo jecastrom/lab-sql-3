@@ -33,7 +33,7 @@ image::https://user-images.githubusercontent.com/63274055/147613177-ea085b64-ec4
 
 
 
-=== How many distinct (different) actors' last names are there?
+=== 1.- How many distinct (different) actors' last names are there?
 ```sql
 SELECT
     count(DISTINCT last_name)
@@ -41,7 +41,7 @@ FROM
     actor;
 ```
 
-=== In how many different languages where the films originally produced? (Use the column language_id from the film table)
+=== 2.- In how many different languages where the films originally produced? (Use the column language_id from the film table)
 
 ```sql
 SELECT
@@ -51,7 +51,7 @@ FROM
 ```
 
 
-=== How many movies were released with "PG-13" rating?
+=== 3.- How many movies were released with "PG-13" rating?
 
 ```sql
 SELECT
@@ -63,7 +63,7 @@ WHERE
 ```
 
 
-=== Get 10 the longest movies from 2006.
+=== 4.- Get 10 the longest movies from 2006.
 
 ```sql
 SELECT
@@ -80,7 +80,7 @@ LIMIT
 
 
 
-=== How many days has been the company operating (check DATEDIFF() function)?
+=== 5.- How many days has been the company operating (check DATEDIFF() function)?
 
 ```sql
 SELECT
@@ -140,7 +140,7 @@ FROM
 ```
 
 
-=== Show rental info with additional columns month and weekday. Get 20.
+=== 6.- Show rental info with additional columns month and weekday. Get 20.
 
 I have chosen date_format() function as it gives me more fredom on the date format I want.
 The extract() function only extracts the numerical values of the date.
@@ -156,7 +156,7 @@ LIMIT
     20;
 ```
 
-=== Add an additional column day_type with values 'weekend' and 'workday' depending on the rental day of the week.
+=== 7.- Add an additional column day_type with values 'weekend' and 'workday' depending on the rental day of the week.
 
 ```sql
 SELECT
@@ -178,7 +178,7 @@ LIMIT
     10;
 ```
 
-=== How many rentals were in the last month of activity?
+=== 8.- How many rentals were in the last month of activity?
 
 There were 182 rentals
 I found best to do a subquery as the WHRER clause does not 
