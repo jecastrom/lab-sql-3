@@ -108,7 +108,7 @@ FROM
 ====
  To express the dame result in years and month:
  
- To obtain the year, I calculate the time period with timestampdiff in months,
+ To obtain the year, I calculate the time period with `timestampdiff` in months,
  using the `floor()` function, will make the result to go to the lowest integer.
  
  `floor(timestampdiff(MONTH, (min(rental_date)), now()) / 12)`
