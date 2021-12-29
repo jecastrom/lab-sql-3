@@ -111,7 +111,7 @@ FROM
  To obtain the year, I calculate the time period with `timestampdiff` in months,
  using the `floor()` function, will make the result to go to the lowest integer.
  
- `floor(timestampdiff(MONTH, (min(rental_date)), now()) / 12)`
+ ``floor(timestampdiff(MONTH, (min(rental_date)), now()) / 12)``
  
  To calculate the months, I use the same operation but this time using the `MOD()` function, which will multiply only the reminder or the decimal part of the calculation, which is a decimal of months `(0.5 month)`. On the second argument of the `MOD()` function I use 12 so `MOD()` can multiply the decimal reminder by 12, as 0.5 years * 12 is 6 months
  
